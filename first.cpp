@@ -1,3 +1,11 @@
+/* this program is designed and made to work on linux 
+if you want to make it work on windows replace the getkey() function with 
+
+char getKey() {
+    return _getch(); 
+}
+also make sure to replace the header file #include<termios.h> with #include<conio.h> and it should work
+    */
 #include <iostream>
 #include<termios.h>
 #include <unistd.h>
